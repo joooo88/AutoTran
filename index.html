@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>오토트랜 | AutoTran</title>
+
+  <!--meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"> 
+  <meta http-equiv="X-UA-Compatible" content="le=edge">
+
+  <!--bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!--css-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/moblie.css">
+
+  <!--favicon--->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/favicon.ico" rel="apple-touch-icon">
+
+  <!--js-->
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/menu_scroll.js"></script>
+  <script src="js/header.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+</head>
+
+
+
+<body>
+
+
+  <header >
+
+    <div class="hd_all">
+
+      <hgroup>
+
+        <a href="#home">
+          <h1 class="menu_style">
+            <img src="img/AutoTRan logo row.png" alt="logo">
+          </h1>
+        </a>
+
+      </hgroup>
+
+      <div class="m_menu_button">
+
+        <a href="#" class="menu-trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
+      </div>
+
+     <script type="text/javascript">
+
+      $(function () {
+        $(".menu-trigger").click(function (e) {
+          e.preventDefault();
+          $(this).toggleClass('active-' + 1);
+        });
+      });
+
+    </script>
+
+<nav class="m_menu">
+  <ul class="menu_style">
+    <li><a href="#home" class="scroll" onClick="selectLink(this); return false;" id="myLink">Home<img src="img/4.png"></a></li>
+    <li><a href="#about" class="scroll" onClick="selectLink(this); return false;">About<img src="img/8.png"></a></li>
+    <li><a href="#coin" class="scroll" onClick="selectLink(this); return false;">AutoTran Coin<img src="img/21.png"></a></li>
+    <li><a href="#roadmap" class="scroll" onClick="selectLink(this); return false;">Roadmap<img src="img/2.png"></a></li>
+    <li><a href="#contact" class="scroll" onClick="selectLink(this); return false;">Contact<img src="img/17.png"></a></li>
+    <li class="lang"><a href="index_eng.html" class="scroll">Eng<img src="img/7.png"></a></li>
+  </ul>
+  
+</nav>
+
+
+    <script type="text/javascript">
+      $(function () {
+        $(".m_menu_button").click(function () {
+          $(".m_menu").animate({ width: "toggle" }, 250); // 메뉴버튼 클릭시 메뉴를 숨깁니다.
+        });
+      });
+
+      $(".scroll").click(function () {
+      $(".m_menu").hide(); // "id" 링크를 클릭할 때 .m_menu를 숨깁니다.
+    });
+
+    </script>
+
+    </div>
+
+  </header>
+
+  <main>
+  <!-- home -->
+  <section id="home">
+    <div class="main_video">
+      <video autoplay muted loop >
+        <source src="vid/home_vid3.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <article>
+      <div class="home_wrap" >
+        <div class="home_content">
+          
+          <div class="home_txt" data-aos="fade-down" data-aos-duration="1500"  >
+            <h2 class="tracking-in-expand"  >AutoTRan</h2>
+            
+            <h3>오토트랜, 자동차 NFT작품의 거래 시장.<br>블록체인 도입을 통해 새로운 장을 열어갑니다.</h3>
+
+            <h4>자동차 NFT 시장. 완성차 메이커 들의 공격적인 진출로<br>
+              인해 전성기가 시작 되었습니다.<br>
+              NFT 시장의 진출을 지원하는 비즈니스 플랫폼과 사업 서포트를<br>
+              통해 자동차 NFT시장의 핵심 역량을 갖추겠습니다.
+            </h4>
+
+            <div class="home_btn">
+              <a onclick="location.href='AutoTRan white paper Ver.01- Kor..pdf' " target="_blank" class="button">Whitepaper<img src="img/6.png"></a>
+              <a onclick="location.href='' " target="_blank" class="button"><img src="img/21.png">Wallet</a>
+            </div>
+
+            
+          </div>
+
+          <div class="home_logo" data-aos="fade-down" data-aos-duration="1000" >
+            <img class="logo" src="img/logo.svg">
+            <div>
+              <img class="logo-i1" src="img/41.png">
+              <img class="logo-i2" src="img/41.png">
+              <img class="logo-i3" src="img/43.png">
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+
+    </article>
+    
+
+  </section>
+
+  <!-- about -->
+  <section id="about">
+    <article class="about1">
+    <div class="intro-bg">
+      <div></div>
+    </div>
+    <div class="intro-d">
+      <div class="intro"  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
+        <img src="img/11.png" >
+        <h2 >Intro<p>🡬</p></h2 >
+        <h3 >블록체인 기술 중 ERC20 기술의 응용기술로서 NFT의 상품화 및 거래에 사용되는
+          ERC721기술을 통해 아래의 기능이 구현된 자동차 NFT전문 비즈니스 마켓플레이스
+          플랫폼을 설계하고 있습니다.</h3>
+      </div>
+
+      <div class="intro-img" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">
+        <img class="logo" src="img/logo.svg">
+        <img class="intro-box" src="img/intro box.png">
+      </div>
+    </div>
+    </article>
+
+    <article class="about2">
+      <div class="ab2-bg">
+        <div></div>
+      </div>
+      <div class="ab2-left"  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
+        <ul class="rou1">
+          <li class="roubox">
+            <h3>플랫폼을 통해서 완성차 제조사들의 실물 자동차 모델을 NFT화하여 민팅 및 출시하는 기능</h3>
+          </li>
+          <li class="roubox">
+            <h3>제작 된 자동차 NFT작품을 시간과 장소에 제약없이 모든 가능한 채널을 통해 홍보하고 거래하는 기능</h3>
+          </li>
+        </ul>
+        <ul class="rou2">
+          <li class="roubox">
+            <h3>DAO방식을 접목한 자동차 NFT 상품에 대한 추천, 프로모션 등 기능 구현</h3>
+          </li>
+          <li class="roubox">
+            <img src="img/AutoTRan logo.png">
+          </li>
+        </ul>
+      </div>
+      
+      <div class="ab2-right"  data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">
+        <img src="img/6.png">
+        <h2><p>🡭</p>Blockchain<br>Protocol</h2>
+        <h3>지금까지 수 십 억 건의 거래를 통해 안전성, 비용효율성, 투명성이 검증 된 ERC20에 NFT 상품의 거래를 위해 ERC721기술을 추가 도입하여 NFT거래 방식의 안정성과 효율성을 배가합니다.</h3>
+      </div>
+
+    </article>
+
+    <article class="about3">
+      <div class="ab3-bg">
+        <div class="bg"></div>
+      </div>
+
+      <div class="ab3-title" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear" >
+        <img src="img/16.png">
+        <h2>사업참여 가능자 및<br>각 참여자 혜택</h2>
+      </div>
+
+      <div class="ab3-box" data-aos="fade-up" data-aos-duration="1100" data-aos-easing="linear">
+        <ul class="box-1">
+          <li class="movebox on1" >
+            <div class="wrap">
+              <div class="hex">
+                <div class="hex-inner">
+                  <div class="content">
+                    <img src="img/ab3 1.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h4>Individual and institutional investors</h4>
+            <div class="spanbox">
+              <span class="sp"></span>
+              <span></span>
+              <span ></span>
+              <span></span>
+            </div>
+            <div class="textbox" >
+              <h4>럭셔리 시계 NFT 상품 제작자</h4>
+            </div>
+          </li>
+          <li class="movebox on2" >
+            <div class="wrap">
+              <div class="hex">
+                <div class="hex-inner">
+                  <div class="content">
+                    <img src="img/ab3 2.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h4>Automobile makers</h4>
+            <div class="spanbox">
+              <span></span>
+              <span class="sp"></span>
+              <span></span>
+              <span ></span>
+            </div>
+            <div class="textbox">
+              <h4>럭셔리 NFT 카피라이트 보유 기업</h4>
+            </div>
+          </li>
+          </ul>
+        <ul class="box-2">
+        <li class="movebox on3" >
+          <div class="wrap">
+            <div class="hex">
+              <div class="hex-inner">
+                <div class="content">
+                  <img src="img/ab3 3.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4>automobile NFT distribution channel</h4>
+          <div class="spanbox">
+            <span></span>
+            <span></span>
+            <span class="sp"></span>
+            <span></span>
+          </div>
+          <div class="textbox" >
+            <h4>자동차 NFT 거래 중개상</h4>
+          </div>
+        </li>
+        <li class="movebox on4" >
+          <div class="wrap">
+            <div class="hex">
+              <div class="hex-inner">
+                <div class="content">
+                  <img src="img/ab3 4.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4>NFT market place service providers</h4>
+          <div class="spanbox">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sp"></span>
+          </div>
+          <div class="textbox">
+            <h4>자동차 NFT 팬 커뮤니티 및 거래개인</h4>
+          </div>
+        </li>
+        </ul>
+      </div>
+     
+
+    </article>
+
+  </section>
+
+  <!-- coin -->
+  <section id="coin">
+    <article>
+
+      <div class="ab3-title">
+        <img src="img/21.png">
+        <h2>예산 사용 계획<br>Budget allocations</h2>
+      </div>
+      
+      <div class="ab3-detail">
+        <ul class="ab3-left">
+          <li class="logo-c">
+            <img src="img/coin logo.svg">
+          </li>
+        </ul>
+
+        <ul class="ab3-right">
+          <li class="ab3-top">
+            <ul class="content1">
+
+              <li>
+                  <div id="spinner">
+                    <img src="img/22.png" >
+                  </div>
+                <h5>단기 사업 확장 비용 30%</h5>
+              </li>
+
+              <li>
+                <div id="spinner">
+                  <img src="img/22.png" >
+                </div>
+                <h5>팀&어드바이저 5%</h5>
+              </li>
+              <li>
+                <div id="spinner">
+                  <img src="img/22.png" >
+                </div>
+                <h5>운영예비비 15%</h5>
+              </li>
+            </ul>
+            <ul class="content2">
+              <li>
+                <div id="spinner">
+                  <img src="img/22.png" >
+                </div>
+                <h5>토큰 세일 10%</h5>
+              </li>
+              <li>
+                <div id="spinner">
+                  <img src="img/22.png" >
+                </div>
+                <h5>국제 자동차 메이커 제휴비용 20%</h5>
+              </li>
+              <li>
+                <div id="spinner">
+                  <img src="img/22.png" >
+                </div>
+                <h5>글로벌 타겟 마케팅 20%</h5>
+              </li>
+            </ul>
+          </li>
+
+          <li class="ab3-down">
+            <p>Coin Name : AutoTRan | Ticker : ATTR | protocol : ERC721 | Total Supply : 200,000,000</p>
+          </li>
+        </ul>
+      </div>
+      
+    </article>
+  </section>
+
+  <!-- roadmap -->
+  <section id="roadmap">
+    <article>
+      <div class="road-title"  data-aos="fade-up" data-aos-duration="1500"  data-aos-easing="linear">
+        <img src="img/2.png">
+        <h2>로드맵</h2>
+      </div>
+
+      <div class="road-detail">
+        <ul class="road-top" data-aos="fade-up" data-aos-duration="1500"  data-aos-easing="linear">
+          <li class="year">
+            <h2>2023</h2>
+          </li>
+          <ul class="each1">
+            <li class="frame">
+            <h4>Q1</h4>
+            <h5>AutoTRan 브랜딩 및<br> 사업 방향 수립</h5>
+            <div>
+              <img src="img/icon 1.png">
+            </div>
+          </li>
+          <li class="frame">
+            <h4>Q2</h4>
+            <h5>국제 자동차 메이커 NFT출시<br> 현황 시장 조사</h5>
+            <div>
+              <img src="img/icon 2.png">
+            </div>
+          </li>
+          </ul>
+          <ul class="each2">
+            <li class="frame">
+            <h4>Q3</h4>
+            <h5>비즈니스 플랫폼 기능 확장<br>가능 블록체인 지갑 출시</h5>
+            <div>
+              <img src="img/icon 3.png">
+            </div>
+          </li>
+          <li class="frame">
+            <h4>Q4</h4>
+            <h5>국제 거래소 1차<br> 상장 완료</h5>
+            <div>
+              <img src="img/icon 4.png">
+            </div>
+          </li>
+          </ul>
+        </ul>
+        <ul class="road-down" data-aos="fade-up" data-aos-duration="2000"  data-aos-easing="linear">
+          <li class="year">
+            <h2>2024</h2>
+          </li>
+          <ul class="each1">
+            <li class="frame">
+            <h4>Q1</h4>
+            <h5>국제 NFT자동차<br>상품 전시회 출품</h5>
+            <div>
+              <img src="img/icon 5.png">
+            </div>
+          </li>
+          <li class="frame">
+            <h4>Q2</h4>
+            <h5>국제 거래소 2차 상장NFT <br>재판매 채널 확대를 위한<br> 시장 조사 및 투자</h5>
+            <div>
+              <img src="img/icon 6.png">
+            </div>
+          </li>
+          </ul>
+          <ul class="each2">
+            <li class="frame">
+            <h4>Q3</h4>
+            <h5>확장성 기능 추가된<br> 비즈니스 플랫폼 앱 출시</h5>
+            <div>
+              <img src="img/icon 7.png">
+            </div>
+          </li>
+          <li class="frame">
+            <h4>Q4</h4>
+            <h5>국제 시장 확대를 위한<br> NFT 거래소 출품 확대</h5>
+            <div>
+              <img src="img/icon 8.png">
+            </div>
+          </li>
+          </ul>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <!-- contact -->
+  <section id="contact">
+    <article class="cont-bg">
+      <img src="img/contact bg.png">
+    </article>
+    <article class="cont-text" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">
+      <div class="oneboder"></div>
+      <div class="cont-form">
+        <h2>contact</h2>
+        <div class="formbox">
+          <form method="post" onsubmit="return validate();">
+              <input type="text" id="email" placeholder="Email" required>
+              <input type="text" id="text" placeholder="Message" required>
+              <input class="subm" type="submit" value="SUBMIT" >
+          </form>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- fixed -->
+  <article class="fix-f">
+    <img src="img/ff.png">
+  </article>
+
+  </main>
+  
+  <footer>
+    <div class="footer_area container">
+      <ul>
+        <li class="foter-left">
+          <a href="#home">
+                  <h1 class="logo_icon">
+                    <img src="img/AutoTRan logo row w.png" alt="logo">
+                  </h1>
+                </a>
+              
+
+                <ul class="inc">
+                  <h4>AutoTRan Inc.</h4>
+                  <!-- <li>운영사 :</li> -->
+                  <!-- <li>예금주 : </li> -->
+                  <li>Address : <!--  --></li>
+                <!--  <li>wallet : <span onclick="location.href='#' "></span></li> -->
+                  <li>고객센터 : <!-- 070-8018-2011  --><span>(월~금 10am~5pm시 － 점심12~2pm)</span></li>
+                </ul>
+        </li>
+        <li class="foter-right">
+          <div class="white_pp">
+            <aside class="but-box">
+              <button type="button" onclick="location.href='AutoTRan white paper Ver.01- Kor..pdf' " target="_blank"><img src="img/kor.svg">Kor</button>
+              <button type="button" onclick="location.href='AutoTRan white paper Ver.01- Eng..pdf' "><img src="img/eng.svg">Eng</button>
+            </aside>
+            <h4>Whitepaper</h4>
+          </div>
+    
+          <div class="sns">
+            <aside>
+              <button type="button" onclick="location.href='#' " target="_blank"><img src="img/telegram.png"></button>
+              <button type="button" onclick="location.href='#' " target="_blank"><img src="img/kakao.png"></button>
+            </aside>
+            <h4>Community</h4>
+          </div>
+        </li>
+      </ul>
+
+      
+
+      
+    </div>
+
+    <p class="footer_p">재단은 코인제작 및 플랫폼 운영, 지갑 관리, 거래소 상장 추진 및 관리에 관한 업무만 진행하고 있습니다.</p>
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>
+
+
+</html>

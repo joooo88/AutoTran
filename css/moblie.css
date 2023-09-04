@@ -1,0 +1,481 @@
+@charset "UTF-8";
+/*데탑 1440px*/
+@media screen and (max-width: 1440px) {
+  main #home article .home_wrap .home_content .home_txt {
+    width: 50%;
+    padding-left: 5rem;
+  }
+  main #about .about1 .intro-d {
+    padding: 0;
+  }
+  main #about .about1 .intro-d .intro {
+    width: 40%;
+  }
+  main #about .about1 .intro-d .intro-img {
+    justify-content: flex-start;
+  }
+  main #about .about1 .intro-d .intro-img .logo {
+    left: 15%;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox {
+    width: 250px;
+    height: 250px;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox:nth-child(1) h3 {
+    padding: 0 1rem 1.5rem 2rem;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox:nth-child(2) h3 {
+    padding: 0 2rem 1.5rem 1rem;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox {
+    width: 250px;
+    height: 250px;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox:nth-child(1) h3 {
+    padding: 1.5rem 1rem 0 3rem;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox img {
+    padding: 2rem 0 1rem 1.5rem;
+    width: 200px;
+  }
+  main #about .about3 .ab3-title {
+    padding: 0 0 3rem 6rem;
+  }
+  main #about .about3 .ab3-box {
+    gap: 1rem;
+  }
+  main #about .about3 .ab3-box .box-1 {
+    gap: 1rem;
+  }
+  main #about .about3 .ab3-box .box-2 {
+    gap: 1rem;
+  }
+  main #coin article .ab3-title {
+    padding: 0 7rem 3rem 0;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-top .content1 {
+    margin-bottom: 2rem;
+  }
+  main #roadmap article .road-title {
+    padding: 0 0 3rem 6rem;
+  }
+  main #roadmap article .road-detail .road-top .year h2 {
+    margin-right: 2rem;
+  }
+  main #roadmap article .road-detail .road-down .year h2 {
+    margin-right: 2rem;
+  }
+  main #contact .cont-text .oneboder {
+    left: 22.5%;
+  }
+}
+/*노트북 1024px*/
+@media screen and (max-width: 1024px) {
+  header .hd_all .m_menu {
+    width: 50%;
+  }
+  header .hd_all .m_menu .menu_style {
+    padding-top: 6rem;
+  }
+  main #home article .home_wrap .home_content .home_txt {
+    padding-left: 0;
+  }
+  main #home article .home_wrap .home_content .home_txt h3 {
+    font-size: 1.5rem;
+  }
+  main #home article .home_wrap .home_content .home_logo .logo {
+    max-width: 85%;
+  }
+  main #home article .home_wrap .home_content .home_logo div .logo-i1 {
+    width: 500px;
+  }
+  main #about .about1 .intro-d .intro {
+    padding: 0;
+  }
+  main #about .about1 .intro-d .intro h2 {
+    font-size: 3rem;
+  }
+  main #about .about1 .intro-d .intro h3 {
+    width: 85%;
+  }
+  main #about .about1 .intro-d .intro-img {
+    justify-content: center;
+  }
+  main #about .about1 .intro-d .intro-img .logo {
+    left: 20%;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox {
+    width: 200px;
+    height: 200px;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox h3 {
+    font-size: 1.1rem;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox:nth-child(1) h3 {
+    padding: 0 1rem 1rem 1rem;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox:nth-child(2) h3 {
+    padding: 0 1rem 1rem 1rem;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox {
+    width: 200px;
+    height: 200px;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox h3 {
+    font-size: 1.1rem;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox:nth-child(1) h3 {
+    padding: 1rem 1rem 0 2rem;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox img {
+    padding: 1rem 0 1rem 1rem;
+    width: 170px;
+  }
+  main #about .about2 .ab2-right img {
+    margin-left: 8rem;
+  }
+  main #about .about2 .ab2-right h2 {
+    margin-left: 2rem;
+    font-size: 3rem;
+  }
+  main #about .about2 .ab2-right h3 {
+    width: 70%;
+    margin-left: 8rem;
+  }
+  main #about .about3 .ab3-title {
+    padding: 0 0 3rem 0;
+    text-align: center;
+  }
+  main #about .about3 .ab3-box {
+    flex-direction: column;
+  }
+  main #about .about3 .ab3-box .box-1 {
+    justify-content: center;
+  }
+  main #about .about3 .ab3-box .box-2 {
+    justify-content: center;
+  }
+  main #coin article .ab3-title {
+    padding: 0 0 3rem;
+    text-align: center;
+  }
+  main #coin article .ab3-detail {
+    flex-direction: column;
+  }
+  main #coin article .ab3-detail .ab3-right {
+    width: 100%;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-top .content1 {
+    justify-content: center;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-top .content2 {
+    justify-content: center;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-down p {
+    margin: 0;
+  }
+  main #roadmap article .road-title {
+    padding: 0 0 3rem;
+    text-align: center;
+  }
+  main #roadmap article .road-detail .road-top {
+    flex-direction: column;
+  }
+  main #roadmap article .road-detail .road-top .each2 {
+    justify-content: flex-end;
+  }
+  main #roadmap article .road-detail .road-down {
+    flex-direction: column;
+  }
+  main #roadmap article .road-detail .road-down .each2 {
+    justify-content: flex-end;
+  }
+  main #contact .cont-text .oneboder {
+    left: 11.5%;
+  }
+}
+/*패드 991px*/
+@media screen and (max-width: 991px) {
+  main #contact .cont-text .oneboder {
+    left: 10.5%;
+  }
+}
+/*아이패드 768px*/
+@media screen and (max-width: 768px) {
+  main #home article .home_wrap .home_content .home_txt {
+    width: 100%;
+  }
+  main #home article .home_wrap .home_content .home_logo {
+    display: none;
+  }
+  main #about .about1 .intro-d {
+    flex-direction: column;
+  }
+  main #about .about1 .intro-d .intro {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  main #about .about1 .intro-d .intro-img {
+    width: 100%;
+  }
+  main #about .about2 {
+    flex-direction: column-reverse;
+  }
+  main #about .about2 .ab2-bg div {
+    left: -19rem;
+    top: -46rem;
+  }
+  main #about .about2 .ab2-left {
+    width: 100%;
+  }
+  main #about .about2 .ab2-right {
+    margin-bottom: 2rem;
+    text-align: right;
+    width: 100%;
+  }
+  main #about .about2 .ab2-right h2 {
+    justify-content: flex-end;
+  }
+  main #about .about2 .ab2-right h3 {
+    width: 100%;
+    margin: 0;
+  }
+  main #contact .cont-text .oneboder {
+    left: 11%;
+    width: 600px;
+    height: 600px;
+  }
+}
+/* 모바일 767px*/
+@media screen and (max-width: 767px) {
+  header .hd_all .m_menu {
+    width: 100%;
+  }
+  header .hd_all .m_menu .menu_style {
+    padding-top: 8rem;
+  }
+}
+/* 모바일2 576px */
+@media screen and (max-width: 576px) {
+  main #about .about3 .ab3-box .box-1 .movebox .wrap {
+    justify-content: center;
+  }
+  main #about .about3 .ab3-box .box-1 .movebox .wrap .hex {
+    max-width: 80%;
+  }
+  main #about .about3 .ab3-box .box-2 .movebox .wrap {
+    justify-content: center;
+  }
+  main #about .about3 .ab3-box .box-2 .movebox .wrap .hex {
+    max-width: 80%;
+  }
+  main #coin {
+    padding: 0 1rem;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-top .content1 {
+    align-items: flex-start;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-top .content2 {
+    align-items: flex-start;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-down p {
+    margin: 0 2rem;
+  }
+  main #roadmap article .road-detail .road-top .each2 {
+    justify-content: flex-start;
+  }
+  main #roadmap article .road-detail .road-down .each2 {
+    justify-content: flex-start;
+  }
+  main #contact .cont-text .oneboder {
+    width: 500px;
+    height: 500px;
+    left: 7%;
+  }
+  footer .footer_area ul {
+    flex-direction: column;
+  }
+  footer .footer_area ul .foter-right .white_pp {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 1rem;
+  }
+  footer .footer_area ul .foter-right .sns {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+}
+/* 모바일3 갤석시 425px */
+@media screen and (max-width: 425px) {
+  main #home article {
+    padding: 0 1.5rem;
+  }
+  main #home article .home_wrap .home_content .home_txt {
+    padding-bottom: 10rem;
+  }
+  main #home article .home_wrap .home_content .home_txt div {
+    padding-top: 2rem;
+    margin: 0 auto;
+  }
+  main #about {
+    padding: 0 2rem;
+  }
+  main #about .about1 .intro-d .intro h3 {
+    width: 100%;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox {
+    width: 180px;
+    height: 180px;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox h3 {
+    font-size: 1rem;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox:nth-child(1) h3 {
+    padding: 0 0.5rem 0.5rem 0.5rem;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox:nth-child(2) h3 {
+    padding: 0 0.5rem 0.5rem 0.5rem;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox {
+    width: 180px;
+    height: 180px;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox h3 {
+    font-size: 1rem;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox:nth-child(1) h3 {
+    padding: 1.5rem 0.5rem 0 1.5rem;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox img {
+    width: 130px;
+  }
+  main #about .about3 .ab3-box .box-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  main #about .about3 .ab3-box .box-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  main #coin article .ab3-detail .ab3-left {
+    width: 80%;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-top .content1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-top .content1 li {
+    flex-direction: row;
+    width: 100%;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-top .content1 li #spinner {
+    width: 130px;
+    height: 130px;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-top .content2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-top .content2 li {
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+  main #coin article .ab3-detail .ab3-right .ab3-top .content2 li #spinner {
+    width: 130px;
+    height: 130px;
+  }
+  main #roadmap {
+    padding: 0 2rem;
+  }
+  main #roadmap article .road-detail .road-top .each1 .frame {
+    height: 270px;
+  }
+  main #roadmap article .road-detail .road-top .each1 .frame div {
+    width: 150px;
+    height: 120px;
+  }
+  main #roadmap article .road-detail .road-top .each1 .frame div img {
+    width: 100px;
+  }
+  main #roadmap article .road-detail .road-top .each2 .frame {
+    height: 270px;
+  }
+  main #roadmap article .road-detail .road-top .each2 .frame div {
+    width: 150px;
+    height: 120px;
+  }
+  main #roadmap article .road-detail .road-top .each2 .frame div img {
+    width: 100px;
+  }
+  main #roadmap article .road-detail .road-down .each1 .frame {
+    height: 270px;
+  }
+  main #roadmap article .road-detail .road-down .each1 .frame div {
+    width: 150px;
+    height: 120px;
+  }
+  main #roadmap article .road-detail .road-down .each1 .frame div img {
+    width: 100px;
+  }
+  main #roadmap article .road-detail .road-down .each2 .frame {
+    height: 270px;
+  }
+  main #roadmap article .road-detail .road-down .each2 .frame div {
+    width: 150px;
+    height: 120px;
+  }
+  main #roadmap article .road-detail .road-down .each2 .frame div img {
+    width: 100px;
+  }
+  main #contact .cont-text .oneboder {
+    display: none;
+  }
+  main #contact .cont-text .cont-form .formbox form {
+    gap: 4rem;
+  }
+  footer {
+    padding: 1rem 2rem;
+  }
+}
+/* 모바일4 아이폰 375px */
+@media screen and (max-width: 375px) {
+  main #about {
+    padding: 0 1rem;
+  }
+  main #about .about1 {
+    padding: 2rem 1rem 0;
+  }
+  main #about .about1 .intro-d .intro h3 {
+    font-size: 1rem;
+  }
+  main #about .about2 {
+    padding-top: 5rem;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox {
+    height: 170px;
+    margin: 5px;
+  }
+  main #about .about2 .ab2-left .rou1 .roubox h3 {
+    font-size: 0.9rem;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox {
+    height: 170px;
+    margin: 5px;
+  }
+  main #about .about2 .ab2-left .rou2 .roubox h3 {
+    font-size: 0.9rem;
+  }
+  main #about .about2 .ab2-right h2 {
+    gap: 1rem;
+  }
+  main #about .about2 .ab2-right h3 {
+    font-size: 1rem;
+  }
+  main #roadmap {
+    padding: 0 1.2rem;
+  }
+}/*# sourceMappingURL=moblie.css.map */

@@ -1,0 +1,329 @@
+@import "./mixin";
+
+/*데탑 1440px*/
+@include desktop{
+    main {
+        #about {
+            .about2 {
+                .ab2-left {
+                    .rou1 {
+                        .roubox {
+                            h3{
+                                font-size: 1.1rem;
+                            }
+                        }
+                    }
+                    .rou2 {
+                        .roubox {
+                            h3{
+                                font-size: 1.1rem;
+                            }
+                            &:nth-child(1){
+                                h3{
+                                    padding: 1.5rem 0.5rem 0 3rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*노트북 1024px*/
+@include laptop{
+    main {
+        #home {
+            article{
+                padding: 0 3rem;
+            }
+        }
+        #about{
+            padding: 0 3rem;
+            .about2 {
+                .ab2-left {
+                    .rou1 {
+                        .roubox {
+                            h3{
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+                    .rou2 {
+                        .roubox {
+                            h3{
+                                font-size: 0.9rem;
+                            }
+                            &:nth-child(1){
+                                h3{
+                                    padding: 1.5rem 0.5rem 0 2rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*패드 991px*/
+@include tablet{
+    main {
+        #coin {
+            article {
+                .ab3-detail {
+                    .ab3-right {
+                        .ab3-top {
+                            .content1 {
+                                li {
+                                    h5{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            .content2 {
+                                li {
+                                    h5{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*아이패드 768px*/
+@include itablet{
+    main {
+        #coin {
+            padding: 0 3rem;
+            article {
+                .ab3-detail {
+                    .ab3-right {
+                        .ab3-top {
+                            .content1{
+                                align-items: flex-start;
+                            }
+                            .content2{
+                                align-items: flex-start;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        p{
+            padding:0 2rem;
+        }
+    }
+}
+
+/* 모바일 767px*/
+@include mobile{}
+
+/* 모바일2 576px */
+@include mobile2{
+    main {
+        #about {
+            .about3 {
+                .ab3-box {
+                    .box-1 {
+                        .movebox {
+                            .textbox{
+                                height: 15%;
+                                padding: 1rem;
+                            }
+                        }
+                    }
+                    .box-2 {
+                        .movebox {
+                            .textbox{
+                                height: 15%;
+                                padding: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #coin{
+            padding: 0 1rem;
+        }
+        #roadmap {
+            article {
+                .road-detail {
+                    .road-top {
+                        .each1 {
+                            .frame {
+                                h5{
+                                    font-size: 0.9rem;
+                                }
+                            }
+                        }
+                        .each2 {
+                            .frame {
+                                h5{
+                                    font-size: 0.9rem;
+                                }
+                            }
+                        }
+                    }
+                    .road-down {
+                        .each1 {
+                            .frame {
+                                h5{
+                                    font-size: 0.9rem;
+                                }
+                            }
+                        }
+                        .each2 {
+                            .frame {
+                                h5{
+                                    font-size: 0.9rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* 모바일3 갤석시 425px */
+@include galaxy{
+    main {
+        #home {
+            article {
+                .home_wrap {
+                    .home_content {
+                        .home_txt{
+                            padding-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+        #about {
+            padding: 0px 1rem;
+            .about2 {
+                .ab2-left {
+                    .rou1 {
+                        .roubox {
+                            
+                            h3{
+                                font-size: 0.85rem;
+                            }
+                        }
+                    }
+                    .rou2 {
+                        .roubox {
+                            &:nth-child(1){
+                                h3{
+                                    padding: 1.1rem 0.5rem 0 1.5rem
+                                }
+                            }
+                            h3{
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                }
+                .ab2-bg {
+                    
+                    div{
+                        top: -44rem;
+                    }
+                }
+            }
+            .about3 {
+                .ab3-title {
+                    h2{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        #coin{
+            article {
+                .ab3-detail {
+                    .ab3-right {
+                        .ab3-top {
+                            .content1 {
+                                li {
+                                    h5{
+                                        width: 50%;
+                                    }
+                                }
+                            }
+                            .content2 {
+                                li {
+                                    h5{
+                                        width: 50%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* 모바일4 아이폰 375px */
+@include iphone{
+    main {
+        #home {
+            article{
+                padding: 0 1.5rem;
+                .home_wrap {
+                    .home_content {
+                        .home_txt {
+                            h3{
+                                font-size: 1.2rem;
+                            }
+                            h4{
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #about{
+            .about2 {
+                .ab2-left {
+                    .rou1 {
+                        .roubox{
+                            h3{
+                                font-size: 0.73rem;
+                            }
+                        }
+                    }
+                    .rou2 {
+                        .roubox{
+                            h3{
+                                font-size: 0.73rem;
+                            }
+                        }
+                    }
+                }
+                .ab2-right {
+                    h2{
+                    }
+                    h3{
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*header*/
+/* main */
+main #about .about1 .intro-d .intro h3 {
+  width: 80%;
+}
+main #about .about2 .ab2-left .rou1 .roubox:nth-child(1) h3 {
+  padding: 0 1rem 1rem 3rem;
+}
+main #about .about2 .ab2-left .rou1 .roubox:nth-child(2) h3 {
+  padding: 0 3rem 1rem 1rem;
+}
+main #about .about2 .ab2-left .rou2 .roubox:nth-child(1) h3 {
+  padding: 1rem 1rem 0 4rem;
+}
+main #about .about2 .ab2-left .rou2 .roubox img {
+  padding: 2rem 0 1rem 1rem;
+}
+main #coin article {
+  padding: 8rem 0 5rem;
+}
+main #coin article .ab3-detail .ab3-right .ab3-top .content1 {
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+main #coin article .ab3-detail .ab3-right .ab3-top .content2 {
+  align-items: flex-start;
+}
+
+/*footer*//*# sourceMappingURL=index_eng.css.map */

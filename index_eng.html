@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>AutoTran</title>
+
+
+  <!--meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"> 
+  <meta http-equiv="X-UA-Compatible" content="le=edge">
+
+  <!--bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!--css-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/index_e76ng.css">
+  <link rel="stylesheet" href="css/moblie.css">
+  <link rel="stylesheet" href="css/moblie_eng.css">
+
+  <!--favicon--->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/favicon.ico" rel="apple-touch-icon">
+
+ <!--js-->
+ <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+ <script src="js/menu_scroll.js"></script>
+ <script src="js/header.js"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+  <header >
+
+    <div class="hd_all">
+
+      <hgroup>
+
+        <a href="#home">
+          <h1 class="menu_style">
+            <img src="img/AutoTRan logo row.png" alt="logo">
+          </h1>
+        </a>
+
+      </hgroup>
+
+      <div class="m_menu_button">
+
+        <a href="#" class="menu-trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
+      </div>
+
+     <script type="text/javascript">
+
+      $(function () {
+        $(".menu-trigger").click(function (e) {
+          e.preventDefault();
+          $(this).toggleClass('active-' + 1);
+        });
+      });
+
+    </script>
+
+<nav class="m_menu">
+  <ul class="menu_style">
+    <li><a href="#home" class="scroll" onClick="selectLink(this); return false;" id="myLink">Home<img src="img/4.png"></a></li>
+    <li><a href="#about" class="scroll" onClick="selectLink(this); return false;">About<img src="img/8.png"></a></li>
+    <li><a href="#coin" class="scroll" onClick="selectLink(this); return false;">AutoTran Coin<img src="img/21.png"></a></li>
+    <li><a href="#roadmap" class="scroll" onClick="selectLink(this); return false;">Roadmap<img src="img/2.png"></a></li>
+    <li><a href="#contact" class="scroll" onClick="selectLink(this); return false;">Contact<img src="img/17.png"></a></li>
+    <li class="lang"><a href="index.html" class="scroll">Kor<img src="img/7.png"></a></li>
+  </ul>
+  
+</nav>
+
+
+    <script type="text/javascript">
+      $(function () {
+        $(".m_menu_button").click(function () {
+          $(".m_menu").animate({ width: "toggle" }, 250); // 메뉴버튼 클릭시 메뉴를 숨깁니다.
+        });
+      });
+
+      $(".scroll").click(function () {
+      $(".m_menu").hide(); // "id" 링크를 클릭할 때 .m_menu를 숨깁니다.
+    });
+
+    </script>
+
+    </div>
+
+  </header>
+
+  <main>
+
+  <!-- home -->
+  <section id="home">
+    <div class="main_video">
+      <video autoplay muted loop >
+        <source src="vid/home_vid3.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <article>
+      <div class="home_wrap" >
+        <div class="home_content">
+          
+          <div class="home_txt" data-aos="fade-down" data-aos-duration="1500"  >
+            <h2 class="tracking-in-expand"  >AutoTRan</h2>
+            
+            <h3>Autotran, the trading market for automotive<br> NFT works. It opens a new chapter through<br> the introduction of blockchain. </h3>
+
+            <h4>Automotive NFT market. The heyday has begun due <br>
+              to the aggressive advancement of finished car makers.<br>
+              We will have the core capabilities of the automotive NFT market <br>
+              through business platforms and business <br>
+              support that support the entry of the NFT market.
+            </h4>
+
+            <div class="home_btn">
+              <a onclick="location.href='AutoTRan white paper Ver.01- Eng..pdf' " target="_blank" class="button">Whitepaper<img src="img/6.png"></a>
+              <a onclick="location.href='' " target="_blank" class="button"><img src="img/21.png">Wallet</a>
+            </div>
+
+            
+          </div>
+
+          <div class="home_logo" data-aos="fade-down" data-aos-duration="1000" >
+            <img class="logo" src="img/logo.svg">
+            <div>
+              <img class="logo-i1" src="img/41.png">
+              <img class="logo-i2" src="img/41.png">
+              <img class="logo-i3" src="img/43.png">
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+
+    </article>
+    
+
+  </section>
+
+  <!-- about -->
+  <section id="about">
+    <article class="about1">
+    <div class="intro-bg">
+      <div></div>
+    </div>
+    <div class="intro-d">
+      <div class="intro"  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
+        <img src="img/11.png" >
+        <h2 >Intro<p>🡬</p></h2 >
+        <h3 >As an application technology of ERC20 technology among blockchain technologies, we are designing an automotive NFT-specialized business marketplace platform that implements the following functions through ERC721 technology used to commercialize and trade NFTs
+        </h3>
+      </div>
+
+      <div class="intro-img" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">
+        <img class="logo" src="img/logo.svg">
+        <img class="intro-box" src="img/intro box.png">
+      </div>
+    </div>
+    </article>
+
+    <article class="about2">
+      <div class="ab2-bg">
+        <div></div>
+      </div>
+      <div class="ab2-left"  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
+        <ul class="rou1">
+          <li class="roubox">
+            <h3>The ability to mint and release physical car models of finished car manufacturers through the platform</h3>
+          </li>
+          <li class="roubox">
+            <h3>The ability to promote and trade manufactured automotive NFT works through all possible channels, regardless of time and place</h3>
+          </li>
+        </ul>
+        <ul class="rou2">
+          <li class="roubox">
+            <h3>Implementation of functions such as recommendation and promotion for automobile NFT products incorporating DAO method</h3>
+          </li>
+          <li class="roubox">
+            <img src="img/AutoTRan logo.png">
+          </li>
+        </ul>
+      </div>
+      
+      <div class="ab2-right"  data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">
+        <img src="img/6.png">
+        <h2><p>🡭</p>Blockchain<br>Protocol</h2>
+        <h3>To date, the ERC20 has been proven to be safe, cost-effective and transparent through billions of transactions, and the additional ERC721 technology is introduced for the transaction of NFT products, doubling the stability and efficiency of NFT transactions.</h3>
+      </div>
+
+    </article>
+
+    <article class="about3">
+      <div class="ab3-bg">
+        <div class="bg"></div>
+      </div>
+
+      <div class="ab3-title" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear" >
+        <img src="img/16.png">
+        <h2>Participant Benefits and <br>Interrelationships Through the <br>NFT Market </h2>
+      </div>
+
+      <div class="ab3-box" data-aos="fade-up" data-aos-duration="1100" data-aos-easing="linear">
+        <ul class="box-1">
+          <li class="movebox on1" >
+            <div class="wrap">
+              <div class="hex">
+                <div class="hex-inner">
+                  <div class="content">
+                    <img src="img/ab3 1.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h4>Individual and institutional investors</h4>
+            <div class="spanbox">
+              <span class="sp"></span>
+              <span></span>
+              <span ></span>
+              <span></span>
+            </div>
+            <div class="textbox" >
+              <h4>Luxury Car NFT Commodity Maker</h4>
+            </div>
+          </li>
+          <li class="movebox on2" >
+            <div class="wrap">
+              <div class="hex">
+                <div class="hex-inner">
+                  <div class="content">
+                    <img src="img/ab3 2.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h4>Automobile makers</h4>
+            <div class="spanbox">
+              <span></span>
+              <span class="sp"></span>
+              <span></span>
+              <span ></span>
+            </div>
+            <div class="textbox">
+              <h4>Company with Luxury NFT Copylight</h4>
+            </div>
+          </li>
+          </ul>
+        <ul class="box-2">
+        <li class="movebox on3" >
+          <div class="wrap">
+            <div class="hex">
+              <div class="hex-inner">
+                <div class="content">
+                  <img src="img/ab3 3.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4>automobile NFT distribution channel</h4>
+          <div class="spanbox">
+            <span></span>
+            <span></span>
+            <span class="sp"></span>
+            <span></span>
+          </div>
+          <div class="textbox" >
+            <h4>Luxury Car NFT Trades Private And Institutional Collectors</h4>
+          </div>
+        </li>
+        <li class="movebox on4" >
+          <div class="wrap">
+            <div class="hex">
+              <div class="hex-inner">
+                <div class="content">
+                  <img src="img/ab3 4.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4>NFT market place service providers</h4>
+          <div class="spanbox">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sp"></span>
+          </div>
+          <div class="textbox">
+            <h4>Luxury Car Used NFT Trader</h4>
+          </div>
+        </li>
+        </ul>
+      </div>
+     
+
+    </article>
+
+  </section>
+
+  <!-- coin -->
+  <section id="coin">
+    <article>
+
+      <div class="ab3-title">
+        <img src="img/21.png">
+        <h2>Budget allocations</h2>
+      </div>
+      
+      <div class="ab3-detail">
+        <ul class="ab3-left">
+          <li class="logo-c">
+            <img src="img/coin logo.svg">
+          </li>
+        </ul>
+
+        <ul class="ab3-right">
+          <li class="ab3-top">
+            <ul class="content1">
+
+              <li>
+                  <div id="spinner">
+                    <img src="img/22.png" >
+                  </div>
+                <h5>short term business growth promotions 30%</h5>
+              </li>
+
+              <li>
+                <div id="spinner">
+                  <img src="img/22.png" >
+                </div>
+                <h5>Team and Advisor 5%</h5>
+              </li>
+              <li>
+                <div id="spinner">
+                  <img src="img/22.png" >
+                </div>
+                <h5>Operations cost reserve 15%</h5>
+              </li>
+            </ul>
+            <ul class="content2">
+              <li>
+                <div id="spinner">
+                  <img src="img/22.png" >
+                </div>
+                <h5>Token Sale 10%</h5>
+              </li>
+              <li>
+                <div id="spinner">
+                  <img src="img/22.png" >
+                </div>
+                <h5>Budget for collaborating<br> and co-branding with<br> international car makers
+                  20%</h5>
+              </li>
+              <li>
+                <div id="spinner">
+                  <img src="img/22.png" >
+                </div>
+                <h5>Global target Marketing 20%</h5>
+              </li>
+            </ul>
+          </li>
+
+          <li class="ab3-down">
+            <p>Coin Name : AutoTRan | Ticker : ATTR | protocol : ERC721 | Total Supply : 200,000,000</p>
+          </li>
+        </ul>
+      </div>
+      
+    </article>
+  </section>
+
+  <!-- roadmap -->
+  <section id="roadmap">
+    <article>
+      <div class="road-title"  data-aos="fade-up" data-aos-duration="1500"  data-aos-easing="linear">
+        <img src="img/2.png">
+        <h2>Roadmap</h2>
+      </div>
+
+      <div class="road-detail">
+        <ul class="road-top" data-aos="fade-up" data-aos-duration="1500"  data-aos-easing="linear">
+          <li class="year">
+            <h2>2023</h2>
+          </li>
+          <ul class="each1">
+            <li class="frame">
+            <h4>Q1</h4>
+            <h5>AutoTRan branding and <br>business direction established</h5>
+            <div>
+              <img src="img/icon 1.png">
+            </div>
+          </li>
+          <li class="frame">
+            <h4>Q2</h4>
+            <h5>International Automaker NFT<br>Launch Status Market Survey</h5>
+            <div>
+              <img src="img/icon 2.png">
+            </div>
+          </li>
+          </ul>
+          <ul class="each2">
+            <li class="frame">
+            <h4>Q3</h4>
+            <h5>Business Platform Function<br>Extensible Blockchain<br> Wallet Launches</h5>
+            <div>
+              <img src="img/icon 3.png">
+            </div>
+          </li>
+          <li class="frame">
+            <h4>Q4</h4>
+            <h5>Completion of First Listing <br>on International Exchange</h5>
+            <div>
+              <img src="img/icon 4.png">
+            </div>
+          </li>
+          </ul>
+        </ul>
+        <ul class="road-down" data-aos="fade-up" data-aos-duration="2000"  data-aos-easing="linear">
+          <li class="year">
+            <h2>2024</h2>
+          </li>
+          <ul class="each1">
+            <li class="frame">
+            <h4>Q1</h4>
+            <h5>International NFT Car<br>Products Exhibition</h5>
+            <div>
+              <img src="img/icon 5.png">
+            </div>
+          </li>
+          <li class="frame">
+            <h4>Q2</h4>
+            <h5>Second Listing on International<br> Exchange Market research and<br> investment to expand NFT<br> resale channels</h5>
+            <div>
+              <img src="img/icon 6.png">
+            </div>
+          </li>
+          </ul>
+          <ul class="each2">
+            <li class="frame">
+            <h4>Q3</h4>
+            <h5>Scalability Added<br>Business Platform App Launch</h5>
+            <div>
+              <img src="img/icon 7.png">
+            </div>
+          </li>
+          <li class="frame">
+            <h4>Q4</h4>
+            <h5>Expands NFT Exchanges<br>to Expand International Markets</h5>
+            <div>
+              <img src="img/icon 8.png">
+            </div>
+          </li>
+          </ul>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <!-- contact -->
+  <section id="contact">
+    <article class="cont-bg">
+      <img src="img/contact bg.png">
+    </article>
+    <article class="cont-text" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">
+      <div class="oneboder"></div>
+      <div class="cont-form">
+        <h2>contact</h2>
+        <div class="formbox">
+          <form method="post" onsubmit="return validate();">
+              <input type="text" id="email" placeholder="Email" required>
+              <input type="text" id="text" placeholder="Message" required>
+              <input class="subm" type="submit" value="SUBMIT" >
+          </form>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- fixed -->
+  <article class="fix-f">
+    <img src="img/ff.png">
+  </article>
+
+  </main>
+  
+  <footer>
+    <div class="footer_area container">
+      <ul>
+        <li class="foter-left">
+          <a href="#home">
+                  <h1 class="logo_icon">
+                    <img src="img/AutoTRan logo row w.png" alt="logo">
+                  </h1>
+                </a>
+              
+
+                <ul class="inc">
+                  <h4>AutoTRan Inc.</h4>
+                  <!-- <li>운영사 :</li> -->
+                  <!-- <li>예금주 : </li> -->
+                  <li>Address : <!--  --></li>
+                <!--  <li>wallet : <span onclick="location.href='#' "></span></li> -->
+                  <li>customer service center : <!-- 070-8018-2011  --><span>(Monday - Friday 10am~5pm시 - 12~2pm)</span></li>
+                </ul>
+        </li>
+        <li class="foter-right">
+          <div class="white_pp">
+            <aside class="but-box">
+              <button type="button" onclick="location.href='AutoTRan white paper Ver.01- Kor..pdf' " target="_blank"><img src="img/kor.svg">Kor</button>
+              <button type="button" onclick="location.href='AutoTRan white paper Ver.01- Eng..pdf' "><img src="img/eng.svg">Eng</button>
+            </aside>
+            <h4>Whitepaper</h4>
+          </div>
+    
+          <div class="sns">
+            <aside>
+              <button type="button" onclick="location.href='#' " target="_blank"><img src="img/telegram.png"></button>
+              <button type="button" onclick="location.href='#' " target="_blank"><img src="img/kakao.png"></button>
+            </aside>
+            <h4>Community</h4>
+          </div>
+        </li>
+      </ul>
+
+      
+
+      
+    </div>
+
+    <p class="footer_p">The foundation is only conducting tasks related to coin production and platform operation, wallet management, and exchange listing promotion and management.</p>
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+
+</html>
